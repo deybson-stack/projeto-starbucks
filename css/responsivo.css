@@ -1,0 +1,60 @@
+@media(max-width: 990px){
+    header{
+
+    
+        padding: 20px;
+    }
+    
+    header .logo{
+        position: relative;
+        max-width: 60px;
+    }
+    
+    header ul{
+        display: none;
+    }
+    
+    section{
+        padding: 20px 20px 110px;
+    }
+    
+    .main{
+        flex-direction: column;
+        margin-top: 100px;
+    }
+    
+    .main .textBox h2{
+        font-size: 2.5rem;
+        margin-bottom: 15px;
+    }
+    
+    .main .textBox{
+        width: 100%;
+    }
+    
+    .main .imgBox{
+        max-width: 100%;
+        justify-content: center;
+    }
+    
+    .main .imgBox img{
+        max-width: 300px;
+    }
+    
+    .drinks li img{
+        max-width: 40px;
+    }
+    .circle{
+        clip-path: circle(400px at center bottom);
+    }
+    
+    .socials{
+        background-color:#017143;
+        right: 0;
+        width: 60px;
+        border-radius: 10px;
+       
+    
+    }
+
+}
